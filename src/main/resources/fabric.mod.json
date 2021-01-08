@@ -1,0 +1,22 @@
+{
+	"schemaVersion": 1,
+	"id": "dispenserportalfix",
+	"version": "${version}",
+	"name": "Dispenser Portal Fix",
+	"description": "Fixes a bug where attempting to light a nether portal using a dispenser facing down crashes the game.",
+	"authors": [
+		"haykam821"
+	],
+	"contact": {
+		"homepage": "https://github.com/haykam821/Dispenser-Portal-Fix#readme",
+		"issues": "https://github.com/haykam821/Dispenser-Portal-Fix/issues"
+	},
+	"mixins": [
+		"dispenserportalfix.mixin.json"
+	],
+	"license": "MIT",
+	"icon": "assets/dispenserportalfix/icon.png",
+	"depends": {
+		"fabricloader": ">=0.4.0"
+	}
+}
